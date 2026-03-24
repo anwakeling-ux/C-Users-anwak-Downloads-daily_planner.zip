@@ -1,0 +1,33 @@
+{
+  "name": "Daily Planner",
+  "short_name": "Planner",
+  "description": "Simple daily schedule planner with alarms",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0f",
+  "theme_color": "#0a0a0f",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Add Event",
+      "short_name": "Add",
+      "description": "Add a new event to today",
+      "url": "./index.html"
+    }
+  ]
+}
